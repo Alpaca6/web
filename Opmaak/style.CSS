@@ -44,10 +44,13 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  /* Media query for small screens */
   @media only screen and (max-width: 600px) {
     body {
-      font-size: 20px;
+      font-size: 14px;
+    }
+    /* Make the font size larger for clickable elements */
+    a, button, h1, h2, h3 {
+      font-size: 18px;
     }
   }
 
