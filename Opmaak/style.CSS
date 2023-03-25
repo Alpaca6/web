@@ -5,6 +5,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+   
   }
   h1, h2, h3 {
     color: #4CAF50;
@@ -56,5 +57,32 @@ body {
     a, button, h1, h2, h3 {
       font-size: 18px;
     }
+  }
+  body { text-align: center; }
+
+  .text {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    padding: 20px 10px;
+    line-height: 24px;
+    min-width: 100px;
+    background: #f1f1f1;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .text::before {
+    transform: translateX(-50%);
+    border-radius: 100%;
+    position: absolute;
+    background: blue;
+    bottom: 10px;
+    height: 8px;
+    content: '';
+    width: 8px;
+    left: 50%;
   }
 
