@@ -15,6 +15,9 @@
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+			border-radius: 5px;
 		}
 
 		h1 {
@@ -22,6 +25,7 @@
 			text-align: center;
 			margin-top: 50px;
 			margin-bottom: 20px;
+			color: #555;
 		}
 
 		p {
@@ -29,6 +33,7 @@
 			line-height: 1.5;
 			text-align: center;
 			margin-bottom: 40px;
+			color: #777;
 		}
 
 		.message {
@@ -36,14 +41,20 @@
 			text-align: center;
 			margin-top: 50px;
 			margin-bottom: 20px;
+			color: #888;
+		}
+		
+		.highlight {
+			color: #00E9A0;
+			font-weight: bold;
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<h1>Tijdelijke sluiting webshop</h1>
-		<p>Onze webshop is uitzonderlijk gesloten tot en met maandag 10 april.</p>
-		<p>Dat betekent niet dat je niet kan nadenken over bestellingen die je de 10e kan plaatsen :)</p>
+		<p>Onze webshop is <span class="highlight">uitzonderlijk gesloten</span> tot en met maandag 10 april.</p>
+		<p>Dat betekent niet dat je niet kan nadenken over bestellingen die je de 10e kan plaatsen <span class="highlight">:)</span></p>
 		<div class="message">Bedankt voor je begrip!</div>
 	</div>
 </body>
